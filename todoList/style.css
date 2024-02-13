@@ -1,0 +1,44 @@
+.title {
+    text-align: center;
+}
+
+.wrapper {
+    width: 40%;
+    margin: auto;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+#input {
+    padding: 0.4em;
+    width: 100%;
+    font-size: 1.5em;
+    outline: none;
+    border: none;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgrey;
+    padding:0 1em;
+}
+
+.content input[type="checkbox"]{
+    cursor: pointer;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.6em;
+}
+
+
+.item .cancel {
+    cursor: pointer;
+}
