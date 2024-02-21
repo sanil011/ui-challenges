@@ -1,0 +1,21 @@
+body{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+}
+
+.wrapper{
+    display: flex ;
+    /* gap: 1em; */
+    cursor: pointer;
+}
+
+.fa-star{
+    transition: all 0.3s ease;
+}
+
+.fa-star:hover{
+    transform: scale(1.2);
+}
